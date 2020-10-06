@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #DDD;
     font-size: 16px;
     color: #222;
     font-family: sans-serif;
@@ -107,4 +106,155 @@ input[type="submit"] {
 .topnav a.active {
     background-color: #882330;
     color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+html {
+    height: 100%;
+    margin: 0;
+    font-family: lato;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 19px;
+    font-size: 1.2rem;
+}
+
+.container {
+    height: 100%;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.thin {
+    font-weight: 400;
+}
+
+.small {
+    font-size: 12px;
+    font-size: .8rem;
+}
+
+.half-input-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.half-input-table td:first-of-type {
+    border-right: 10px solid #4488dd;
+    width: 50%;
+}
+
+.window {
+    height: 600px;
+    width: 700px;
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.order-info {
+    height: 80%;
+    width: 80%;
+    padding-top: 10%;
+    padding-left: 15%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.price {
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    color: #4488dd;
+}
+
+.order-table td:first-of-type {
+    width: 25%;
+}
+
+.order-table {
+    position: relative;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ddd;
+}
+
+.order-table td:last-of-type {
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.pay-btn {
+    border: none;
+    background: #882330;
+    line-height: 2em;
+    border-radius: 10px;
+    font-size: 14px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 10px);
+    transition: all .2s ease;
+}
+
+.pay-btn:hover {
+    background: #157e2f;
+    color: #eee;
+    transition: all .2s ease;
+}
+
+.total {
+    margin-top: 25px;
+    font-size: 20px;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 30px;
+    right: 27px;
+    left: 35px;
+}
+
+.dense {
+    line-height: 1.2em;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .window {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 0px;
+    }
+    .order-info {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        border-radius: 0px;
+    }
+    .pay-btn {
+        border-radius: 0px;
+    }
 }

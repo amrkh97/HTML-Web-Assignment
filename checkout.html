@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+</head>
+
+<body style="background-image: url('Assets/Food\ background.jpg');">
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#menu">Our Menu</a>
+        <a href="checkout.html">Cart</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class='container'>
+        <div class='window'>
+            <div class='order-info'>
+                <div class='order-info-content'>
+                    <h2>Order Summary</h2>
+                    <div class='line'></div>
+                    <table class='order-table'>
+                        <tbody>
+                            <tr>
+                                <td><img src='Assets/Burger.jpg' class='full-width'></img>
+                                </td>
+                                <td>
+                                    <br> <span class='thin'>Cheese Burger</span>
+                                    <br> Extra Pickles<br> <span class='thin small'> Fries + Cola, Size: L<br><br></span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class='price'>80.5</div>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                    <div class='line'></div>
+                    <table class='order-table'>
+                        <tbody>
+                            <tr>
+                                <td><img src='Assets/Fried Chicken.jpg' class='full-width'></img>
+                                </td>
+                                <td>
+                                    <br> <span class='thin'>Fried Chicken</span>
+                                    <br>Half Soy - Half Teryiaki<br> <span class='thin small'> Regular, Size: 5 Pieces</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class='price'>125</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class='line'></div>
+                    <table class='order-table'>
+                        <tbody>
+                            <tr>
+                                <td><img src='Assets/pizza wallpaper.jpg' class='full-width'></img>
+                                </td>
+                                <td>
+                                    <br> <span class='thin'>4*4 Pizza</span>
+                                    <br>Half 4 cheese - Half Peperroni<br> <span class='thin small'> Extra Ranch, Size: Medium</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class='price'>88</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class='line'></div>
+
+                    <div class='checkout_button'>
+                        <button onclick="calculateCost()" class="pay-btn">Checkout</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
