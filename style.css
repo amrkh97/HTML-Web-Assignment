@@ -11,28 +11,6 @@ body {
     font-weight: 300;
 }
 
-#login-box {
-    position: relative;
-    margin: 5% auto;
-    width: 600px;
-    height: 600px;
-    background: #FFF;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.signup {
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    padding: 10px;
-    box-sizing: border-box;
-    width: 450px;
-    height: 450px;
-    margin: 0;
-    transform: translateY(-50%);
-}
-
 h1 {
     position: relative;
     margin: 10px;
@@ -69,37 +47,8 @@ input[type="password"]:focus {
     transition: 0.2s ease;
 }
 
-input[type="submit"] {
-    margin-top: 28px;
-    width: 120px;
-    height: 32px;
-    background: #16a085;
-    border: none;
-    border-radius: 2px;
-    color: #FFF;
-    font-family: sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: 0.1s ease;
-    cursor: pointer;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgba(143, 31, 23, 0.637);
     color: black;
 }
 
@@ -122,14 +71,6 @@ h2 {
     font-weight: 200;
     font-size: 19px;
     font-size: 1.2rem;
-}
-
-.container {
-    height: 100%;
-    padding-top: 5%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 .thin {
